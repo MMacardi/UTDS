@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ai_labirint Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Debug",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Debug",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ai_labirint Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Debug",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ai_labirint Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Development",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Development",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ai_labirint Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Development",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Test",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Test",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ai_labirint Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Test",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ai_labirint Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirint Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ai_labirint",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirintEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirintEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirintEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirintEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ai_labirintEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirintEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ai_labirintEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirintEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirintEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirintEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirintEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ai_labirintEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirintEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ai_labirintEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirintEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirintEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirintEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ai_labirintEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ai_labirintEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "ai_labirintEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ai_labirintEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\anvol\\Documents\\Unreal Projects\\ai_labirint\\ai_labirint.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		}
+	]
+}
