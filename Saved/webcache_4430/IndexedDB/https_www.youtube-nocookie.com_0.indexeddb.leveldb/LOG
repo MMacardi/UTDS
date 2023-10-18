@@ -1,2 +1,7 @@
-2023/09/05-20:57:56.717 69d8 Creating DB C:/Users/anvol/Documents/Unreal Projects/ai_labirint/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
-2023/09/05-20:57:56.728 69d8 Reusing MANIFEST C:/Users/anvol/Documents/Unreal Projects/ai_labirint/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/18-22:45:23.323 5200 Reusing MANIFEST C:/Users/anvol/Documents/Unreal Projects/ai_labirint/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/18-22:45:23.328 5200 Recovering log #3
+2023/10/18-22:45:23.328 5200 Reusing old log C:/Users/anvol/Documents/Unreal Projects/ai_labirint/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/000003.log 
+2023/10/18-22:45:53.918 9b8 Level-0 table #5: started
+2023/10/18-22:45:53.928 9b8 Level-0 table #5: 1322 bytes OK
+2023/10/18-22:45:53.930 9b8 Delete type=0 #3
+2023/10/18-22:45:53.930 9b8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
